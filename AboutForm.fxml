@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #df4244;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dan.AboutFormController">
+   <children>
+      <Button fx:id="buttonClose" layoutX="534.0" layoutY="71.0" mnemonicParsing="false" style="-fx-background-color: #1e90ff;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="50.0" prefWidth="600.0" text="Danism Copyright 2016" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
